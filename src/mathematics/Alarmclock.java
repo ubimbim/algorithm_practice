@@ -23,7 +23,9 @@ public class Alarmclock {
 			hh = hh-1;
 		} 
 		
-		System.out.printf("%d %d",hh, mm);		
+		System.out.printf("%d %d",hh, mm);	
+		
+		sc.close();
 
 	}
 
